@@ -1,0 +1,88 @@
+.container {
+  width: 450px;
+  border: 1px solid #ccc;
+}
+
+.h2 {
+  color: #fff;
+}
+
+.header {
+  background-color: rgb(37, 190, 190);
+  padding: 1rem;
+}
+
+.chatBody {
+  flex: 1;
+  padding: .5rem;
+  height: 100%;
+}
+
+.form {
+  display: flex;
+  border: 1px solid #ccc;
+  align-items: stretch;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  padding: .3rem;
+}
+
+.button {
+  padding: .6rem .4rem;
+  font-size: .9rem;
+  background-color: rgb(18, 137, 241);
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.chatContainer {
+  height: 580px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.chatContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.you, .other {
+  max-width: 200px;
+  margin: .6rem 0;
+}
+
+.message {
+  padding: .5rem;
+  border-radius: .3rem;
+}
+
+.you {
+  margin-left: auto;
+}
+
+.you .message {
+  background-color: rgb(27, 102, 241);
+  color: #fff;
+}
+
+.other .message {
+  background-color: #ccc;
+}
+
+.time, .name {
+  font-size: .8rem;
+}
+
+.time {
+  margin-left: 1rem;
+}
+
+.nameTimeContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2px;
+}
